@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b2ffb2;
+    color: #000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 560px; /* Chiều rộng của video */
+    height: 315px; /* Chiều cao của video */
+    border: none; /* Xóa viền */
+    border-radius:12px
+}
+
+footer {
+    margin-top: auto; /* Đẩy footer xuống dưới cùng */
+    padding: 20px 0; /* Khoảng cách trên và dưới của footer */
+    background-color: #4CAF50; /* Màu nền của footer */
+    color: #fff; /* Màu chữ trong footer */
+    width: 100%; /* Chiều rộng của footer */
+    text-align: center; /* Căn giữa nội dung footer */
+}
